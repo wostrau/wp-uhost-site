@@ -55,6 +55,11 @@ main {
   font-size: 1.2rem;
   color: #0e4f1f;
   background: white;
+  font-size: 1.2rem;
+  /* font-family: 'AnonymousPro', sans-serif; */
+  /* font-weight: 700; */
+  /* text-decoration: underline; */
+  /* text-shadow: 2px 2xp 7px rgb(185, 180, 180); */
 }
 
 .clearfix {
