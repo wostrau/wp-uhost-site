@@ -240,7 +240,9 @@ main {
 
 .modal {
   position: fixed;
-  display: none;
+  opacity: 0;
+  transform: translateY(-3rem);
+  transition: opacity 200ms ease-out, transform 500ms ease-out;
   z-index: 200;
   top: 20%;
   left: 30%;
@@ -289,6 +291,8 @@ main {
 
 .open {
   display: block !important;
+  opacity: 1 !important;
+  transform: translateY(0) !important;
 }
 
 @media (min-width: 40rem) {
